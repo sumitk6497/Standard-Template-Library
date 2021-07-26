@@ -26,15 +26,5 @@ int main()
 	cout << "Size of list 3 = " << distance(list3.begin(), list3.end()) << endl;
 	cout << "Size of list 4 = " << distance(list4.begin(), list4.end()) << endl;
 
-/*	list1.resize(2);
-	for(auto &i : list1)
-	    cout << i << "  ";				//output = 1 3
-	cout <<"\n";
-
-	list1.resize(5);
-	for(auto &i : list1)
-	    cout << i << "  ";				//output = 1 3 0 0 0
-	cout <<"\n";
-*/
 	return 0;
 }
